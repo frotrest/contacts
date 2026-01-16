@@ -1,0 +1,57 @@
+.phonebook {
+    background-color: green;
+    border: 2px solid black;
+    padding: 20px 40px;
+}
+
+.contacts {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 100px 20px 20px 20px;
+}
+
+.titleSection {
+    color: black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.listNumbers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    background-color: antiquewhite;
+    gap: 10px;
+    padding: 15px 40px;
+}
+
+.listNumber {
+    border: 2px solid black;
+    padding: 10px;   
+    color: black;
+    display: flex;
+    gap: 30px;
+}
+
+.buttonDelete {
+    background-color: red;
+    border: 2px solid black;
+    cursor: pointer;
+}
