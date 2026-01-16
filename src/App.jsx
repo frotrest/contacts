@@ -3,7 +3,6 @@ import { Component } from 'react';
 import PhoneBook from './components/Feedback/PhoneBook';
 import Contacts from './components/Feedback/Contacts';
 import { nanoid } from 'nanoid';
-import { number } from 'prop-types';
 
 class App extends Component {
   state = {
